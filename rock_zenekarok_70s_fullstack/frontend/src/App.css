@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  background-color: #636363;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+}
+
+.custom-navbar {
+  background-color: #555555;
+}
+
+.custom-nav-link {
+  color: #b0b0b0 !important;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 1rem;
+}
+
+.custom-nav-link.active-link {
+  color: rgb(236, 236, 236) !important;
+  font-weight: bold;
+}
+
+.hero-box {
+  background: #111111;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid #444;
+}
+
+.hero-img {
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+  display: block;
+}
+
+.band-card {
+  background-color: #d8d8d8;
+  color: #222222;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid #888888;
+}
+
+.band-card-header {
+  background-color: #5c5c5c;
+  color: rgb(236, 236, 236);
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.band-image {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+}
+
+.form-container {
+  max-width: 650px;
+  margin: 0 auto;
+  background-color: #727272;
+  padding: 2rem;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.form-label {
+  font-size: 0.9rem;
+  margin-bottom: 0.2rem;
+  color: #f1f1f1;
+}
+
+.form-control, .form-select {
+  border-radius: 4px;
+}
